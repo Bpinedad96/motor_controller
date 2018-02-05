@@ -11,6 +11,8 @@ Encoder myEnc2(33, 34);
 const float pi = 3.14159;
 float r = 0.075;
 
+//fix right
+
 ros::NodeHandle  nh;
 
 // Real speed variables
