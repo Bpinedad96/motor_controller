@@ -1,6 +1,5 @@
 
 <launch>
-    <!-- Controller for drone's X axis -->
     <node name="controller" pkg="pid" type="controller" ns="left_wheel1" output="screen" >
       <param name="node_name" value="left_wheel1_pid" />
       <param name="Kp" value="1.4" />
@@ -15,7 +14,6 @@
       <param name="min_loop_frequency" value="8.0" />
      </node>
     
-     <!-- Controller for drone's Y axis -->
     <node name="controller" pkg="pid" type="controller" ns="right_wheel1" output="screen" >
       <param name="node_name" value="right_wheel1_pid" />
       <param name="Kp" value="1.4" />
