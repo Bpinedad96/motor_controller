@@ -5,8 +5,8 @@
 
 DualMC33926MotorShield md;
 
-Encoder myEncl1(13, 11);
-Encoder myEncr1(3, 5);
+Encoder myEncl1(3, 5);
+Encoder myEncr1(13, 11);
 
 const float pi = 3.14159;
 float r = 0.075;
